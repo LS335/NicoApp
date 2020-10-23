@@ -29,6 +29,9 @@
             ],
             "styles": [
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "src/assets/sass/paper-kit.scss",
+              "src/assets/css/demo.css",
+              "src/assets/css/nucleo-icons.css",
               "src/styles.scss"
             ],
             "scripts": []
@@ -94,6 +97,9 @@
             ],
             "styles": [
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "src/assets/sass/paper-kit.scss",
+              "src/assets/css/demo.css",
+              "src/assets/css/nucleo-icons.css",
               "src/styles.sass"
             ],
             "scripts": []
@@ -132,5 +138,8 @@
     "@schematics/angular:component": {
       "styleext": "scss"
     }
+  },
+  "cli": {
+    "analytics": "10c00ec2-c6a9-4657-b5b7-32ae51d8b0d4"
   }
 }
